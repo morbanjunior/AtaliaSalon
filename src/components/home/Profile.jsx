@@ -1,11 +1,14 @@
 import { StyleSheet, Text, View, Image, TouchableOpacity} from 'react-native'
-import React from 'react'
+import React, {useState} from 'react'
 
-const Profile = () => {
+const Profile = ({SeTmodelVisibleProfile}) => {
+  
   return (
     <View>
       <View style={styles.profileContainer}>
-        <TouchableOpacity>
+        <TouchableOpacity
+          onPress={()=>SeTmodelVisibleProfile(true)}
+        >
         <Image 
       style={styles.userLogo}
       source={{

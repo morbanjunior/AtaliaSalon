@@ -4,7 +4,7 @@ import ServicesItem from './ServicesItem'
 
 const ServiceList = () => {
   return (
-    <View style={{marginBottom:30}}>
+    <View style={{marginBottom:130}}>
       <ServicesItem />
       <ServicesItem />
       <ServicesItem />

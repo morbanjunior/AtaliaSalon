@@ -27,5 +27,16 @@
   "devDependencies": {
     "@babel/core": "^7.12.9"
   },
-  "private": true
+  "private": true,
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/morbanjunior/AtaliaSalon.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/morbanjunior/AtaliaSalon/issues"
+  },
+  "homepage": "https://github.com/morbanjunior/AtaliaSalon#readme",
+  "description": ""
 }
